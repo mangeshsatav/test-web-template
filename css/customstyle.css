@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'BebasNeue-webfont';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src:
+        url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+
+        url('../fonts/BebasNeue-webfont.ttf') format('truetype');
+
+
+url('../fonts/BebasNeue-webfont.woff') format('woff'),
+}
+/* Text Color */
+body {
+    background-color: #fff;
+    color: #444;
+}
+/* Heading Color */
+a,
+h1, h2, h3, h4, h5, h6,
+
+
+
+.search-page ol {
+    color: #000;
+}
+.site-header .mobile-nav span {
+    background-color: #000;
+}
+/* Primary Color */
+a:hover,
+.icon:hover h2,
+.icon .glyphicon:before,
+.icon-group .icon:hover .glyphicon:before,
+.featured-heading,
+.color,
+.btn-style-2,
+.site-footer .menu li a:hover,
+
+
+
+
+
+.twitter a,
+.posts .post-meta .author span,
+.persons .post-meta .author span,
+.persons li a .open,
+.sidebar .rfc_widget button:hover,
+.services > ul > li button:hover,
+.services > ul > li.selected button,
+
+
+.search-page .glyphicon {
+    color: #0ea7c3;
+}
+
+.icon:hover .glyphicon,
+.icon:after,
+.featured-heading span:before,
+.featured-heading span:after,
+.btn-style-1,
+.btn-style-2:hover,
+.social-bookmarks li a,
+.nav-tabs li a,
+.nav-tabs li.active a:after,
+
+
+
+.widget_search input[type="submit"],
+.services div h1,
+.twitter span,
+.posts .post-meta,
+
+.filter li button:hover,
+.filter li button.selected,
+
+
+
+.widget_calendar td a:hover {
+    background-color: #0ea7c3;
+}
+.site-header.header-type-2 .navigation > ul > li a:hover,
+.site-header.header-type-2 .mobile-nav:hover,
+.site-header.header-type-2 .current-menu-item > a {
+    background-color: #0ea7c3 !important;
+}
+
+
+
+
+
+@media (min-width: 889px) {
+    .navigation > ul > li .sub-menu .current-menu-item > a,
+    .navigation a:hover {
+        color: #0ea7c3;
+    }
+    .navigation > ul > li.current-menu-item > a {
+        background-color: #0ea7c3;
+    }
+}
+@media (max-width: 888px) {
+    .navigation li {
+        color: #0ea7c3;
+    }
+    .navigation a:before {
+        background-color: #0ea7c3;
+    }
+}
+.icon .glyphicon {
+    border: 7px solid #0ea7c3;
+}
+.icon .glyphicon:after {
+    border: 4px solid #0ea7c3;
+}
+.select-wrap:before {
+    border-top: 4px solid #0ea7c3;
+}
+.btn-style-2 {
+    border: 1px solid #0ea7c3;
+}
+.btn-style-2:after {
+    border: 4px solid #0ea7c3;
+}
+
+.social-bookmarks li a:hover {
+    background-color: #0ea7c3;
+    background-color: #0c90a8;
+}
+.posts .post-meta,
+ {
+    background-color: #0ea7c3;
+    background-color:  rgba(14, 167, 195, 0.9);
+}
+.site-footer .copyright {
+    background-color: #0ea7c3;
+    background-color:  rgba(14, 167, 195, 0.5);
+}
+.site-footer.style-2 .copyright {
+    background-color: #0ea7c3;
+}
+/* Hover Color */
+
+
+.widget_calendar th,
+.widget_calendar caption {
+    color: #13bfdf;
+}
+
+.widget_calendar td a {
+    background-color: #13bfdf;
+}
+
+.btn-style-2:hover,
+.btn-style-2:hover:after {
+    border-color: #13bfdf;
+}
+
+.nav-tabs li a:hover,
+.btn-style-1:hover,
+.widget_search input[type="text"]  {
+    background-color: #13bfdf;
+}
+
+/* Background Color */
+body,
+.site-header,
+.featured-heading span,
+.persons li {
+    background-color: #fff;
+    background-color:  rgba(255, 255, 255, 0.95);
+}
+/* =Font Families
+-------------------------------------------------------------- */
+body,
+input[type="text"],
+textarea,
+select,
+.comment-list li header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5,
+.btn-style-1,
+
+
+
+.services div li,
+
+#infinite-handle span,
+.search-page input[type="text"],
+.search-page ol {
+    font-family: "BebasNeue-webfont", Arial;
+}
+.site-header,
+.statement h2,
+.twitter-feed h2,
+.contact-info h2,
+.statement h3,
+.twitter-feed h3,
+.contact-info h3,
+.statement,
+.twitter-feed,
+.contact-info,
+
+.btn-style-2,
+.site-footer,
+
+
+.twitter,
+.filter li button,
+.ls-move h2 {
+    font-family: 'Open Sans', Arial, Helvetica;
+}
+li.comment.odd header span {
+    background-color: #454545;
+}
