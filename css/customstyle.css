@@ -9,6 +9,8 @@
 
 url('../fonts/BebasNeue-webfont.woff') format('woff'),
 }
+
+
 /* Text Color */
 body {
     background-color: #fff;
@@ -17,9 +19,9 @@ body {
 /* Heading Color */
 a,
 h1, h2, h3, h4, h5, h6,
-
-
-
+.services div li,
+.no-results p,
+.no-results li,
 .search-page ol {
     color: #000;
 }
@@ -35,11 +37,11 @@ a:hover,
 .color,
 .btn-style-2,
 .site-footer .menu li a:hover,
-
-
-
-
-
+.radial-progress-bar canvas,
+.sidebar a:hover,
+.shoutbox h1,
+.quote,
+.services div .glyphicon,
 .twitter a,
 .posts .post-meta .author span,
 .persons .post-meta .author span,
@@ -47,12 +49,15 @@ a:hover,
 .sidebar .rfc_widget button:hover,
 .services > ul > li button:hover,
 .services > ul > li.selected button,
-
-
+#infinite-handle,
+.error-page h1,
+.error-page h2 a,
 .search-page .glyphicon {
     color: #0ea7c3;
 }
-
+input[type=checkbox]:checked + label:after {
+    color: #0ea7c3;
+}
 .icon:hover .glyphicon,
 .icon:after,
 .featured-heading span:before,
@@ -62,19 +67,20 @@ a:hover,
 .social-bookmarks li a,
 .nav-tabs li a,
 .nav-tabs li.active a:after,
-
-
-
+.panel-group .panel .panel-title a:after,
+.author span,
+.comment-list li header span,
 .widget_search input[type="submit"],
 .services div h1,
 .twitter span,
 .posts .post-meta,
-
+.persons .post-meta,
 .filter li button:hover,
 .filter li button.selected,
-
-
-
+div.light_square .pp_close,
+.box,
+.ls-move h1 em,
+ul.page-numbers li .current,
 .widget_calendar td a:hover {
     background-color: #0ea7c3;
 }
@@ -83,11 +89,22 @@ a:hover,
 .site-header.header-type-2 .current-menu-item > a {
     background-color: #0ea7c3 !important;
 }
+input[type=radio]:checked + label:after {
+    background-color: #0ea7c3;
+}
+.last:hover:after,
+.last:hover:before,
+.next:hover:after,
+.next:hover:before {
+    border-left-color: #0ea7c3;
+}
 
-
-
-
-
+.first:hover:before,
+.first:hover:after,
+.prev:hover:before,
+.prev:hover:after {
+    border-right-color: #0ea7c3;
+}
 @media (min-width: 889px) {
     .navigation > ul > li .sub-menu .current-menu-item > a,
     .navigation a:hover {
@@ -106,7 +123,7 @@ a:hover,
     }
 }
 .icon .glyphicon {
-    border: 7px solid #0ea7c3;
+ border: 7px solid #0ea7c3;
 }
 .icon .glyphicon:after {
     border: 4px solid #0ea7c3;
@@ -120,13 +137,15 @@ a:hover,
 .btn-style-2:after {
     border: 4px solid #0ea7c3;
 }
-
+.author img {
+    border: 6px solid #0ea7c3;
+}
 .social-bookmarks li a:hover {
     background-color: #0ea7c3;
     background-color: #0c90a8;
 }
 .posts .post-meta,
- {
+.persons .post-meta {
     background-color: #0ea7c3;
     background-color:  rgba(14, 167, 195, 0.9);
 }
@@ -139,7 +158,7 @@ a:hover,
 }
 /* Hover Color */
 
-
+#infinite-handle span:hover,
 .widget_calendar th,
 .widget_calendar caption {
     color: #13bfdf;
@@ -159,7 +178,10 @@ a:hover,
 .widget_search input[type="text"]  {
     background-color: #13bfdf;
 }
-
+/* Services Price Color */
+.services div h1 span {
+    color: #adeaf5;
+}
 /* Background Color */
 body,
 .site-header,
@@ -179,11 +201,11 @@ select,
 }
 h1, h2, h3, h4, h5,
 .btn-style-1,
-
-
-
+.radial-progress-bar,
+.widget_tag_cloud a,
+.rfc_widget > ul li,
 .services div li,
-
+.persons li a .open,
 #infinite-handle span,
 .search-page input[type="text"],
 .search-page ol {
@@ -199,11 +221,11 @@ h1, h2, h3, h4, h5,
 .statement,
 .twitter-feed,
 .contact-info,
-
+.header-quote,
 .btn-style-2,
 .site-footer,
-
-
+.panel-group .panel .panel-title a:after,
+.shoutbox h2,
 .twitter,
 .filter li button,
 .ls-move h2 {
@@ -211,4 +233,25 @@ h1, h2, h3, h4, h5,
 }
 li.comment.odd header span {
     background-color: #454545;
+}
+
+.col-md-6 h2,
+.col-md-6 h4{
+    padding: 0;
+
+}
+
+.col-md-6 h4{
+    padding-top: 0;
+   padding-bottom: 10px;
+    font-style: normal;
+
+}
+
+.col-md-10 p{
+    font-size: 14px;
+}
+
+.col-md-6 p{
+    font-size: 14px;
 }

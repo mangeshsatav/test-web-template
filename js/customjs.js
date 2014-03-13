@@ -173,6 +173,9 @@ jQuery(function($) {
             $(".site-header").addClass("show-on-scroll");
         }
     });
+
+    /*
+
     /* Contact Form on SUBMIT */
     $('form input[type="text"], form textarea').wrap('<div class="form-row" />');
     $('input[type="text"], textarea').on("blur", function(){
@@ -215,7 +218,7 @@ jQuery(function($) {
         e.preventDefault();
         return false;
     });
-    /* Contact Form on Clear */
+    /* Contact Form on Clear
     $('[data-form="clear"]').on('click', function() {
         var el = $(this).parents('form[data-success]').find('input[type="text"], textarea');
         el.each(function(index) {
@@ -229,9 +232,14 @@ jQuery(function($) {
         return false;
     });
 
+      */
 
 
-    /* Portfolio */
+
+    /* Portfolio
+
+    /*
+
     try {
         var $container = $('.isotope');
         var first_scroll = true;
@@ -272,7 +280,7 @@ jQuery(function($) {
         });
     } catch (e) { }
 
-
+     */
     /* Performs a smooth page scroll to an anchor on the same page. */
 
     $('.nav-menu a[href*=#]:not([href=#])').click(function() {
@@ -283,7 +291,7 @@ jQuery(function($) {
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
                 $('html,body').animate({
-                    scrollTop: target.offset().top - 100
+                    scrollTop: target.offset().top - 105
                 }, 1000, function () {
                     //window.location.hash = href;
                 });
